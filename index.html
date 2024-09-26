@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">    
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+<link rel="stylesheet" href="assets/css/style.css">
+<link rel="shortcut icon" href="assets/img/msFavicon.png" type="image/x-icon">
+<title>MD Pizza</title>
+</head>
+<body>
+
+    <header class="topo-site">
+        <a href="index.html" class="logo">
+            <i class="fa fa-pizza-slice"></i>
+            MD Pizza
+        </a>
+
+        <nav class="menu-site">
+            <a href="index.html">Home</a>
+            <a href="empresa.html">Empresa</a>
+            <a href="loja.html">Montar pedido</a>
+            <a href="blog.html">Novidades</a>
+            <a href="contatos.html">Fale conosco</a>
+        </nav>
+
+        <div class="icons">
+            <div id="cart" class="fas fa-shopping-cart"></div>
+            <div id="login" class="fas fa-user"></div>
+            <div id="menu" class="fas fa-bars"></div>
+        </div>
+
+        <div class="carrinho">
+            <div class="box">
+                <i class="fas fa-times"></i>
+                <img src="assets/img/carrinho/carrinho-1.png" alt="">
+                <div class="content">
+                    <h3>Pizza Frango</h3>
+                    <span class="quantidade">1</span>
+                    <span class="multiplica">x</span>
+                    <span class="valor">R$ 77,77</span>
+                </div>
+            </div>
+
+            <div class="box">
+                <i class="fas fa-times"></i>
+                <img src="assets/img/carrinho/carrinho-2.png" alt="">
+                <div class="content">
+                    <h3>Pizza Frango</h3>
+                    <span class="quantidade">1</span>
+                    <span class="multiplica">x</span>
+                    <span class="valor">R$ 77,77</span>
+                </div>
+            </div>
+
+            <div class="box">
+                <i class="fas fa-times"></i>
+                <img src="assets/img/carrinho/carrinho-3.png" alt="">
+                <div class="content">
+                    <h3>Pizza Frango</h3>
+                    <span class="quantidade">1</span>
+                    <span class="multiplica">x</span>
+                    <span class="valor">R$ 77,77</span>
+                </div>
+            </div>
+
+            <h3 class="total">Total: R$ 777,77</h3>
+            <a href="" class="btn">Ir para o carrinho</a>            
+        </div>
+
+        <form action="" method="post" class="login-form">
+            <h3>Acesse sua conta</h3>
+            <input type="email" name="email" class="box" placeholder="Seu email">
+            <input type="password" name="senha" class="box" placeholder="Sua senha">
+            <div class="lembrar-senha">
+                <input type="checkbox" name="lembrar" id="relembrar">
+                <label for="relembrar">Lembrar da senha</label>
+            </div>
+            <button type="submit" name="sendLogin" class="btn">Acessar</button>
+        </form>
+    </header>
+
+    <section class="msflix-destaque">
+        <div class="swiper home-slider">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide slide" style="background: url(assets/img/slides/slider-1.png) no-repeat;">
+                    <div class="content">
+                    <h3>A <span>melhor</span> pizza <br> do Brasil</h3>
+                    <a href="" class="btn">Comprar agora</a>
+                    </div>    
+                </div>
+                <div class="swiper-slide slide" style="background: url(assets/img/slides/slider-2.png) no-repeat;">
+                    <div class="content">
+                    <h3>A <span>melhor</span> pizza <br> do Brasil</h3>
+                    <a href="" class="btn">Comprar agora</a>
+                    </div>    
+                </div>
+                <div class="swiper-slide slide" style="background: url(assets/img/slides/slider-3.png) no-repeat;">
+                    <div class="content">
+                    <h3>A <span>melhor</span> pizza <br> do Brasil</h3>
+                    <a href="" class="btn">Comprar agora</a>
+                    </div>    
+                </div>
+            </div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+        </div>
+    </section>
+
+    <section class="destaque">
+        <div class="box-container">
+            <div class="box">
+                <div class="msimg">
+                    <img src="assets/img/destaques/destaque-1.jpg" alt="">                    
+                </div>
+                <div class="content">
+                    <h3>Pizza Da Casa</h3>
+                </div>
+            </div>
+            <div class="box">
+                <div class="msimg">
+                    <img src="assets/img/destaques/destaque-2.jpg" alt="">                    
+                </div>
+                <div class="content">
+                    <h3>Sobremesas</h3>
+                </div>
+            </div>
+            <div class="box">
+                <div class="msimg">
+                    <img src="assets/img/destaques/destaque-3.jpg" alt="">                    
+                </div>
+                <div class="content">
+                    <h3>Pizzas Doces</h3>
+                </div>
+            </div>
+            <div class="box">
+                <div class="msimg">
+                    <img src="assets/img/destaques/destaque-4.jpg" alt="">                    
+                </div>
+                <div class="content">
+                    <h3>Pizza Gourmet</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="como-funciona">
+        <h1 class="titulo">Como <span>funciona</span></h1>
+        <div class="box-container">
+           <div class="box">
+            <img src="assets/img/como-funciona/msflix-1.gif" alt="">
+            <h3>Escolha Sua Pizza</h3>
+           </div> 
+
+           <div class="box">
+            <img src="assets/img/como-funciona/msflix-2.gif" alt="">
+            <h3>Entrega Gratuita E Rápida</h3>
+           </div> 
+
+           <div class="box">
+            <img src="assets/img/como-funciona/msflix-3.gif" alt="">
+            <h3>Métodos De Pagamentos Fáceis</h3>
+           </div> 
+
+           <div class="box">
+            <img src="assets/img/como-funciona/msflix-4.gif" alt="">
+            <h3>E Finalmente, Aproveite Sua Comida</h3>
+           </div> 
+        </div>
+    </div>
+    
+<script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+
+<script src="assets/js/md.js"></script>
+</body>
+</html>
