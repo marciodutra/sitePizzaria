@@ -377,6 +377,31 @@ section{
     padding: 1rem;
  }
 
+<<<<<<< HEAD
+=======
+ .loja .box-container{
+   display: grid;
+   grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+   gap: 2.5rem;
+ }
+
+ .loja .box-container .box{
+   position: relative;
+   text-align: center;
+   overflow: hidden;
+   padding: 0 2.5rem;
+ }
+
+ .loja .box-container .box img{
+   height: 29rem;
+   transition: .4s linear;
+ }
+
+ .loja .box-container .box:hover img{
+   transform: scale(1.1);
+ }
+
+>>>>>>> 4b2ca5d (Fazendo a parte das mais compradas)
  @media(max-width:991px){
     html{
         font-size: 55%;
