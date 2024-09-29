@@ -46,3 +46,27 @@ var swiper = new Swiper(".menu-slider", {
         clickable:true,
       },
 })
+
+let verModalCorpo = document.querySelector(".menu-modal-container");
+let verModalBox = verModalCorpo.querySelector(".menu-modal");
+
+document.querySelectorAll(".menu .box").forEach(menu =>{
+   menu.onclick = () =>{
+    verModalCorpo.style.display = 'flex';
+    let nome = menu.getAttribute('data-name');
+
+    verModalBox.forEach(visualizar =>{
+        let chamada = visualizar.getAttribute('data-target');
+        if(nome == chamada){
+            visualizar.classList.add('active');
+        }
+    });
+   }; 
+});
+
+verModalCorpo.querySelector("#fechar").onclick = () =>{
+    verModalCorpo.style.display = 'none';
+    verModalBox.forEach(fechar =>{
+        fechar.classList.remove('active');
+    });
+};
