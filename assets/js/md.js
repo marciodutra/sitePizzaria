@@ -14,6 +14,12 @@ document.querySelector("#login").onclick = () => {
     carrinho.classList.remove('active');
 }
 
+window.onscroll = () =>{
+    
+    login.classList.remove('active');
+    carrinho.classList.remove('active'); 
+}
+
 var swiper = new Swiper(".home-slider", {
 
     autoplay:{
@@ -26,5 +32,17 @@ var swiper = new Swiper(".home-slider", {
     navigation: {
         nextEl: '.swiper-button-next',
         prevEl: '.swiper-button-prev',
+      },
+})
+
+var swiper = new Swiper(".menu-slider", {    
+    grapCursor: true,
+    loop:true,
+    autoheight:true,
+    centeredSlides:true,
+    spaceBetwwen:20,    
+    pagination: {
+        el: '.swiper-pagination',
+        clickable:true,
       },
 })
